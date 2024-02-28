@@ -1,13 +1,14 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'BNazanin' !important
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@font-face {
+  font-family: 'BNazanin';
+  src: url('../public/Fonts/BNazanin.woff') format('woff'), url('../public/Fonts/BNazanin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Morvarid';
+  src: url('../public/Fonts/Far_Morvarid.woff') format('woff'), url('../public/Fonts/Far_Morvarid.ttf') format('truetype');
 }
